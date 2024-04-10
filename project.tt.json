@@ -1,0 +1,11 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "temptaro",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "minified": false,
+    "postcss": false,
+    "enhance": false
+  }
+}

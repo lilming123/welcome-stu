@@ -1,0 +1,92 @@
+.Container {
+  backdrop-filter: blur(30px);
+  display: flow-root;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FCE9D8;
+  overflow: hidden;
+}
+.Top {
+  margin-top: 80px;
+  // 元素剧中
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__Img {
+    border-radius: 30px;
+    width: 180px;
+    height: 180px;
+  }
+  &__Text {
+    margin-top: 16px;
+    font-size: 40px;
+    font-weight:500;
+  }
+}
+
+.Circle {
+  filter: blur(10px);
+  position: absolute;
+  border-radius: 50%;
+  width: 1500px;
+  height: 1500px;
+  &__One {
+    top: -700px;
+    left: -700px;
+    background:radial-gradient(rgba(209, 187, 250, 1.00) ,rgba(209, 187, 250, 0.30), rgba(209, 187, 250, 0) ,rgba(0,0,0, 0) 800px);
+  }
+  &__Two {
+    bottom: -650px;
+    left: -650px;
+    background:radial-gradient(rgba(209, 187, 250, 1.00) ,rgba(209, 187, 250, 0.40), rgba(209, 187, 250, 0) ,rgba(0,0,0, 0) 1000px);
+  }
+  &__Three {
+    top: 50vh;
+    transform: translateY(-50%);
+    background:radial-gradient(rgba(245, 203, 128, 1.00),rgba(245, 203, 128, 0.30), rgba(245, 203, 128, 0) ,rgba(0,0,0, 0) 1200px);
+  }
+  &__Four {
+    bottom: -700px;
+    background:radial-gradient(rgba(220, 174, 185, 1.00),rgba(220, 174, 185, 0.40), rgba(220, 174, 185, 0) ,rgba(0,0,0, 0) 700px);
+  }
+}
+
+.FormBox {
+  padding: 0 50px;
+  margin-top: 50px;
+  &__Item {
+    height: 80px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__Button {
+    margin-top: 50px;
+    border-radius: 20px;
+    height: 80px;
+    background: linear-gradient(to bottom, rgba(255, 188, 82, 1.00),rgba(237, 158, 32, 1.00));
+    border: 0;
+  }
+  &__Text {
+    margin-top: 50px ;
+    font-size: 30px;
+    color: rgba(46, 46, 46, 1.00)
+  }
+}
+
+.Register {
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__Text {
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(6, 163, 255);
+  }
+}
